@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+.root{
+
+   /* ### Neutral */
+
+    --Almost-White: hsl(0, 0%, 98%);
+    --Medium-Gray: hsl(0, 0%, 41%);
+    --Almost-Black: hsl(0, 0%, 8%);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: static;
+  
+}
+
+.sect1{
+    display: flex;
+    margin: 30px;
+    /* justify-content: space-between; */
+}
+
+.logo{
+    width: 84px;
+    height: 27px;
+}
+
+.nav-bar{
+    display: flex;
+    margin-left: 50px;
+    
+}
+
+li{
+    display: inline;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Epilogue', sans-serif;
+    color: hsl(0, 0%, 41%);
+    cursor: pointer;
+   
+}
+
+.arrow{
+    margin-left:-15px;
+}
+
+.details{
+    margin-left: 700px;
+    
+}
+
+.login{
+    background-color: transparent;
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+    border-color: transparent;
+    margin-left: -70px;
+    cursor: pointer;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.register{
+    background-color: transparent;
+    font-size: 18px;
+    border-color: hsl(0, 0%, 41%);
+    margin-left: 60px;
+    width: 100px;
+    height: 40px;
+    font-family: 'Epilogue', sans-serif;
+    border-radius: 10px;
+    color: hsl(0, 0%, 41%);
+    cursor: pointer;
+}
+
+.sect2{
+    display: flex;
+}
+
+
+.main1{
+    margin: 120px;  
+}
+
+h1{
+    font-size: 75px;
+    word-spacing: 15px;
+    font-family: 'Epilogue', sans-serif;
+    /* word-break: break-all; */
+    margin-left: 50px;
+}
+
+p{
+    font-size: 22px;
+    font-family: 'Epilogue', sans-serif;
+    color: hsl(0, 0%, 41%);
+    margin-top: 60px;
+    /* margin-left: 50px;  */
+
+}
+
+.main2{
+    background-image: url('./images/image-hero-desktop.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 600px;
+    margin-left: -120px;
+    margin-top: 50px;
+ }
+
+ .learnbtn{
+    background-color:hsl(0, 0%, 8%);
+    font-size: 18px;
+    font-family: 'Epilogue', sans-serif;
+    border-color: transparent;
+    margin-left: -5px;
+    margin-top: 50px;
+    /* width: 100px;
+    height: 40px; */
+    padding: 10px 18px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 98%);
+    cursor: pointer;
+ }
+
+ .brands{
+    align-content: space-evenly;
+    margin-top: 30px;
+ }
+
+ @media(max-width:575px){
+
+    .sect1{
+        display: flex;
+        margin: 10px;
+        /* justify-content: space-between; */
+    }
+
+    .nav-bar{
+        display: flex;
+        margin-left: 10px;
+        
+    }
+
+    .details{
+        margin-left: -300px;
+        margin-top: 30px;
+        
+    }
+
+    .register{
+        background-color: transparent;
+        font-size: 18px;
+        border-color: hsl(0, 0%, 41%);
+        margin-left: 30px;
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+        color: hsl(0, 0%, 41%);
+        cursor: pointer;
+    }
+    
+    .sect2{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .main1{
+        margin: 10px -10px;  
+        
+    }
+    
+    h1{
+        font-size: 45px;
+        word-spacing: 1px;
+        /* word-break: break-all; */
+        margin-left: 20px;
+        margin-top: -250px;
+    }
+    
+    p{
+        font-size: 18px;
+        color: hsl(0, 0%, 41%);
+        margin-top: 10px;
+        /* margin-left: 50px;  */
+    
+    }
+    
+    .main2{
+        background-image: url('./images/image-hero-mobile.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 400px;
+        height: 600px;
+        margin-left: 50px;
+     }
+    
+     .learnbtn{
+        background-color:hsl(0, 0%, 8%);
+        font-size: 18px;
+        border-color: transparent;
+        margin-left: 105px;
+        margin-top: 30px;
+        /* width: 100px;
+        height: 40px; */
+        padding: 10px 18px;
+        border-radius: 10px;
+        color: hsl(0, 0%, 98%);
+        cursor: pointer;
+     }
+    
+     .brands{
+        align-items: space-evenly;
+        margin: 30px;
+     }
+ }
+ 
